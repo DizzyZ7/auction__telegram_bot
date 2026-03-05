@@ -39,6 +39,8 @@ class Bid(Base):
 
     user_id = Column(Integer)
 
+    username = Column(String)
+
     amount = Column(Float)
 
     time = Column(DateTime)
